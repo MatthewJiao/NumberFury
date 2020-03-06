@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="hahaha">#f54260</color>
+    <color name="lolol">#bdfff0</color>
+    <color name="white">#ffffff</color>
+    <color name="food">#BDDAED</color>
+    <color name="background">#54AEFC</color>
+    <color name = "BLUE"> #6eb6f5</color>
+    <color name="custom1"> #009EFD</color>
+    <color name="custom2">#2AF598</color>
+    <color name="black">#000000</color>
+</resources>
+
+

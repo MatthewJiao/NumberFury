@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".summationGame">
+
+    <Button
+        android:id="@+id/test1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+
+        />
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="36"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+
+        />
+
+    <Button
+        android:id="@+id/test3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="72"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="108"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="144"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="216"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="252"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="288"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/mainBtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525"
+        android:layout_centerInParent="true"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <Button
+        android:id="@+id/test10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button7"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/mainBtn"
+        app:layout_constraintCircleAngle="324"
+        app:layout_constraintCircleRadius="130dp"
+        android:textColor="#102e6e"
+        app:fontFamily="sans-serif-smallcaps"
+
+        />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#2AF598"
+        android:textSize="50sp"
+        app:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="85dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
